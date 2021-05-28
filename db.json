@@ -1,5 +1,133 @@
 {
-    "players": [{}],
-    "teams": [{}],
-    "scores": [{}]
+    "players": [{
+            "id": 1,
+            "firstName": "Jane",
+            "lastName": "Doe",
+            "teamId": 1
+        },
+        {
+            "id": 2,
+            "firstName": "Dohn",
+            "lastName": "Joe",
+            "teamId": 1
+        },
+        {
+            "id": 3,
+            "firstName": "Marty",
+            "lastName": "McFly",
+            "teamId": 1
+        },
+        {
+            "id": 4,
+            "firstName": "French",
+            "lastName": "Montana",
+            "teamId": 2
+        },
+        {
+            "id": 5,
+            "firstName": "Rick",
+            "lastName": "Sanchez",
+            "teamId": 2
+        },
+        {
+            "id": 6,
+            "firstName": "Charles",
+            "lastName": "Darlose",
+            "teamId": 2
+        },
+        {
+            "id": 7,
+            "firstName": "Fake",
+            "lastName": "Name",
+            "teamId": 3
+        },
+        {
+            "id": 8,
+            "firstName": "Cornell",
+            "lastName": "West",
+            "teamId": 3
+        },
+        {
+            "id": 9,
+            "firstName": "Bond",
+            "lastName": "Jamesbond",
+            "teamId": 3
+        },
+        {
+            "firstName": "Renly",
+            "lastName": "Baratheon",
+            "teamId": 4,
+            "id": 10
+        },
+        {
+            "firstName": "Robert",
+            "lastName": "Baratheon",
+            "teamId": 4,
+            "id": 11
+        },
+        {
+            "firstName": "Joffrey",
+            "lastName": "Baratheon",
+            "teamId": 4,
+            "id": 12
+        }
+    ],
+    "teams": [{
+            "id": 1,
+            "name": "The Starks"
+        },
+        {
+            "id": 2,
+            "name": "The Lannisters"
+        },
+        {
+            "id": 3,
+            "name": "The Targaryens"
+        },
+        {
+            "name": "The Baratheons",
+            "id": 4
+        },
+        {
+            "name": "The Greyjoys",
+            "id": 5
+        }
+    ],
+    "scores": [{
+            "timestamp": 1621555943543,
+            "teamId": 1,
+            "score": 3,
+            "id": 1
+        },
+        {
+            "timestamp": 1621555943543,
+            "teamId": 2,
+            "score": 2,
+            "id": 2
+        },
+        {
+            "timestamp": 1621555943543,
+            "teamId": 3,
+            "score": 6,
+            "id": 3
+        },
+        {
+            "timestamp": 1621556407211,
+            "teamId": 1,
+            "score": 4,
+            "id": 4
+        },
+        {
+            "timestamp": 1621556407211,
+            "teamId": 3,
+            "score": 4,
+            "id": 5
+        },
+        {
+            "timestamp": 1621556407211,
+            "teamId": 4,
+            "score": 2,
+            "id": 6
+        }
+    ]
 }
